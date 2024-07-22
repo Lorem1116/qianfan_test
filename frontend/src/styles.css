@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  max-width: 850px;
+  margin: 30px auto;
+  padding: 20px;
+  max-height: 650px;
+  overflow-y: auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.inputbutton {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: hsl(0, 85%, 69%);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.inputbutton:hover {
+  background-color: hwb(357 21% 42%);
+}
+
+.inputbutton1 {
+  margin-top: 10px;
+  margin-left: 5px;
+  padding: 5px 10px;
+  background-color: hsl(0, 85%, 69%);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.inputbutton1:hover {
+  background-color: hwb(357 21% 42%);
+}
+
+
+
+.message-container {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  padding: 5px;
+  display: flex !important;
+  border: #cbb7b7 solid 1px;
+  border-radius: 5px;
+  /* 启用 Flexbox 布局 */
+  /* 使容器内的项目在垂直方向上居中 */
+  gap: 10px;
+  /* 设置项目之间的间距 */
+}
+
+.texts {
+  background-color: #fff;
+  padding: 10px;
+  height: 400px;
+  overflow-y: auto;
+  border: rgb(238, 209, 223) solid 1px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.your-select-class {
+  padding: 10px;
+  min-width: 250px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(238, 209, 223);
+  outline: none;
+  cursor: pointer;
+}
+
+
+.model-selector {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.select-container {
+  flex: 1 1 auto;
+  margin-right: 20px;
+}
+
+.selected-text {
+  flex: 1 1 100%;
+}
+
+@media (min-width: 768px) {
+  .select-container {
+      margin-right: 20px;
+  }
+
+  .selected-text {
+      flex: 1 1 auto;
+  }
+}
