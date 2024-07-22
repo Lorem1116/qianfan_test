@@ -9,8 +9,8 @@ from langchain_community.chat_models import QianfanChatEndpoint
 from langchain_core.language_models.chat_models import HumanMessage,AIMessage
 
 
-os.environ["QIANFAN_AK"] = 'dkG5dq8FgEjCHOqGkIZM7fgC'
-os.environ["QIANFAN_SK"] = '8Yu4iJyZJIEiJw7D3oZ3dRPFvngG7k3J'
+os.environ["QIANFAN_AK"] = ''
+os.environ["QIANFAN_SK"] = ''
 
 app = Flask(__name__)
 
